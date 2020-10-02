@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="About Judy Mandelboim">
+    <meta name="keywords" content="software engineering, Judy Mandelboim">
+    <meta name="author" content="Judy Mandelboim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judy Mandelboim</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#128285;</button>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+    </script>
+
+    <header id="intro">
+      <hgroup>
+        <h1>Judy Mandelboim</h1>
+        <h2>Software engineering student</h2>
+      </hgroup>
+    </header>
+
+<!--  Navbar  -->
+    <nav>
+      <div class="bar">
+        <span class="list"><a href="#intro">INTRO</a></span>
+        <span class="list"><a href="#sec1">ABOUT ME</a></span>
+        <span class="list"><a href="#sec2">SKILS & TOOLS</a></span>
+        <span class="list"><a href="#sec3">PROJECTS</a></span>
+        <span class="list"><a href="#contact">CONTACT ME</a></span>
+      </div>
+    </nav>
+
+    <main>
+      <section id="sec1">
+        <article id = "about">
+          <br />
+          <p>My name is Judy,a Student to Software Engineering (B.sc) in SCE college ,3rd year.
+              <br />  <br />
+              This site is my first project in HTML5, CSS3 and JavaScript.<br />
+              During the semester break I learned these three languages.
+                <br />  <br />
+                I have a strong desire to learn and succeed,
+                 and the ability to self-learn with excellent analytical and creative abilities.
+                <br />  <br />
+
+          </p>
+          <hr />
+        </article>
+        <div class="my_picture"><img src="Pictures/me.jpg" alt="my picture" /></div>
+      </section>
+      <br>
+
+      <section id = "sec2">
+        <u><h3>SKILS & TOOLS</h3></u>
+        <article id="block_skils">
+          <p>
+            <strong>
+              <u>DEVELOPMENT
+              </u>
+            </strong>
+            <br />
+            <br />
+            <div class="skil">
+              <span class="scrollRight">C++</span>
+              <span class="scrollLeft">Assembly</span>
+              <span class="scrollRight">C</span>
+              <span class="scrollLeft">Java</span>
+              <span class="scrollRight">Python</span>
+              <span class="scrollLeft">Html</span>
+              <span class="scrollRight">Css</span>
+              <span class="scrollLeft">JavaScript</span>
+            </div>
+          </p>
+        </article>
+        <article id="block_tools">
+          <strong>
+            <u>TOOLS</u>
+          </strong>
+          <br />
+          <br />
+          <br />
+          <div class="tool, skil">
+            <span class="scrollLeft">Git & Github</span>
+          </div>
+        </article>
+      </section>
+      <br /><br />
+
+      <section id="sec3">
+        <h3>PROJECTS</h3>
+        <P>To view my projects go to my github  <a href="https://github.com/judymand?tab=repositories" target="_blank">click here</a></P>
+
+        <article id="project">
+          <h4 id="name_project"><u>Project in C ++</u></h4>
+          <p id="text_project">
+            In this project I built a data structure of a linked list type.<br />
+            A linked list is created from several members (Node).</<br /><br />
+          </p>
+          <a id="link" href="https://github.com/judymand/data-structures" target="_blank">Link to project on my github</a>
+          <br /> <br />
+        </article>
+
+
+        <div id="block_picture_project">
+          <button class="left" onclick="change_project('prev')">&#8249;</button>
+          <img id="picture_project" src="Pictures/linkedList c++.png" alt="Picture of the project" />
+          <button class="right" onclick="change_project('next')"> &#8250;</button>
+        </div>
+        <br />  <br />  <br />
+      </section>
+      <section id="contact" >
+          <h3>CONTACT ME</h3>
+      <p class="cv">
+        <br />  <br />
+        <a href="CV_YehuditMandelboim.docx" download="CV_YehuditMandelboim.docx"><button><h3>Get my resume</h3></button></a>
+      </p>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="bar">
+        <span class="list"><a href="https://www.linkedin.com/in/judy-mandelboim" target="_blank"><img  class="icon" src="Pictures/linkedin_pic.png" alt="My Linkedin"/></a></span>
+        <span class="list"><a href="https://github.com/judymand" target="_blank"><img  class="icon" src="Pictures/github_pic.png" alt=" My Github"/></a></span>
+        <span class="list"><a href="mailto:judymand70@gmail.com" target="_blank"><img  class="icon" src="Pictures/email_pic.png" alt=" My Email"/></a></span>
+      </div>
+      <div id="copyright">&copy; Judy mandelboim 2020 </div>
+    </footer>
+
+
+
+  </body>
+
+</html>
